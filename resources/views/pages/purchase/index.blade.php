@@ -90,7 +90,7 @@
             url: '{{ route('pembelian.detail') }}',
             data : {id :id},
             success: function(result) {
-                $('#title').html("Detail Pengadaan");
+                $('#title').html("Detail Pembelian");
                 $('#modal').modal('show');
 
                 let tbody = $('#tableDetail tbody');
